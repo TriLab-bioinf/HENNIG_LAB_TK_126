@@ -1,0 +1,31 @@
+# fastqc
+FASTQC=fastqc
+
+#fastx-trimmer
+READ=SE
+THREADS=36
+ADAPTER=ILLUMINACLIP:/usr/local/apps/trimmomatic/0.36/adapters/TruSeq3-SE.fa:2:30:12 
+LEADING=LEADING:3
+TRAILING=TRAILING:3
+SLIDINGWINDOW=SLIDINGWINDOW:4:20
+MINLEN=MINLEN:20
+HEADCROP=HEADCROP:3
+
+CLEANUP=1
+
+
+# star
+STARTHR=36
+
+
+
+# samtools
+SAMTOOLS=samtools
+
+#htseq
+POS=pos
+ATTR=gene_id
+FEAT=exon
+FORMAT=bam
+STRAND=no
+GTF=/fdb/STAR_current/UCSC/mm10/genes.gtf

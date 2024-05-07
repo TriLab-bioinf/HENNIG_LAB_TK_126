@@ -1,0 +1,4 @@
+#!/bin/sh
+#$ -S /bin/sh
+
+sh all-steps-mm10.sh parameters-mm10 input.txt LOG-20240506.log
