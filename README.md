@@ -1,5 +1,7 @@
 ### HENNIG_LAB_TK_126
 
+*input.txt* file contains the full-path to the input fastq files
+
 #### START THE SWARM JOB (2hr/sample)
 
 ```
